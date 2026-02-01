@@ -11,7 +11,7 @@ form.addEventListener('submit',(e) => {
                         email,
                         phone
                       };
-  fetch('your_google_script_url',{
+  fetch('https://script.google.com/macros/s/AKfycbxTnPDGmQCqJNqPPuL6SsTDnH-3K0E8xDlvHt4XFaaCuwJOlEd3ok0VWSDCGqW30u5Sqg/exec',{
     method: 'post',
     headers: {
       'Content-Type: 'application/json'
